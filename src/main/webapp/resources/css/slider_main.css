@@ -1,0 +1,167 @@
+/* First slider with big circle images starts */
+.slider{
+ background: rgba(0,0,0,0.2)
+}
+.slider .carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+}
+.slider .carousel-indicators {
+    left: 50%;
+    bottom: 10%;
+    width: auto;
+    margin-left: -23px;
+    display: inline-block;
+}
+.slider .carousel-inner .right{
+    background-image: none;
+}
+.slider .carousel-inner .left{
+    background-image: none;
+}
+.slider .carousel-inner .description{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -129px;
+}
+.slider .carousel-inner .description p{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #24292d;
+}
+.slider .carousel-inner .description p span img{
+    display: none;
+}
+.slider .carousel-inner{
+    position: relative;
+}
+.slider .carousel-inner .description h1{
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #24292d;
+}
+.slider .carousel-inner .item figure img{
+    width: 100%;
+
+}
+.slider .carousel-inner .priceCircle{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 20%;
+    right: 7%;
+    background-image: url('style_images/priceCircle.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 90px 90px;
+    color: #fff;
+    line-height: 25px;
+    font-size: 10px;
+}
+
+.slider .carousel-inner .priceCircle p:first-of-type{
+    line-height: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.slider .carousel-inner .priceCircle p:last-of-type{
+    line-height: 15px;
+    font-size: 10px;
+    font-weight: bold;
+}
+/* /First slider with big circle images end */
+
+/* Second slider with little circle images starts */
+.peopleSaying h2{
+    margin-top: 110px;
+    font-family: 'Playball', cursive;
+    font-size: 25px;
+
+} 
+.peopleSaying div:first-child div p{
+    margin-bottom: 0px;
+    font-size: 8px;
+}
+.peopleSaying{
+    background: url('style_images/testimonials.jpg') no-repeat center center fixed;
+    color: #fefefe;
+    font-family: 'PT Sans Caption', sans-serif;
+    background-size: cover;
+}
+.peopleSaying .carousel-inner .right{
+    background-image: none;
+}
+.peopleSaying .carousel-inner .left{
+    background-image: none;
+}
+.peopleSaying .carousel-inner .description{
+
+}
+.peopleSaying .carousel-inner .item figure:first-of-type img{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.peopleSaying .carousel-inner .description p:first-of-type{
+    font-size: 12px;
+}
+.peopleSaying .carousel-inner .description p:last-of-type{
+    font-size: 12px;
+    color: #fefefe;
+    margin-top: 30px;
+}
+.peopleSaying .carousel-inner .description h3{
+    font-size: 20px;
+    margin-top: 14px;
+    font-weight: bold;
+    color: #fefefe;
+}
+.peopleSaying .carousel-indicators{
+    display: none;
+}
+.peopleSaying .carousel-inner .item figure:last-of-type img{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.peopleSaying .carousel-control{
+    top: 28%;
+}
+
+/* Second slider with little circle images end */
+
+
+/* SLIDER FROM ABOUT US PAGE START */
+
+.sliderAbout .carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 1px;
+}
+.sliderAbout .carousel-indicators {
+    left: 50%;
+    bottom: 40px;
+    width: auto;
+    margin-left: -29px;
+    display: inline-block;
+}
+.sliderAbout .carousel-inner .right{
+    background-image: none;
+}
+.sliderAbout .carousel-inner .left{
+    background-image: none;
+}
+.tab-pane .slick-dots li.slick-active button::before {
+    border: 1px solid #c0bebd;
+    border-radius: 50%;
+}
+/* SLIDER FROM ABOUT US PAGE END */
+
+

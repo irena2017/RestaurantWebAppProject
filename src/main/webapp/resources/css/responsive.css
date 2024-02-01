@@ -1,0 +1,1198 @@
+@media only screen and (min-width: 768px){
+    /*////---- FOR ALL PAGES HEADER START ----////*/
+    /* Header top */
+    .headerTop .signIn ul{
+        margin-right: -15px;
+    }
+    .headerTop article address{
+        margin-left: -15px;
+        margin-bottom: 20px;
+    }
+    /* /Header top */
+
+    /* Header */
+    .header > nav > div > div{
+        clear: none;
+    }
+    .header .navbar-brand{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .header .navbar-default ul.navbar-nav {
+        margin-top: 0px;
+        margin-right: -15px;
+        float: right;
+    }
+    .header .navbar-default div.navbar-collapse{
+        margin-right: -15px;
+    }
+    .header .navbar-default .navbar-nav .text-center{
+        text-align: right;
+    }
+    .header .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        color: #24292d;
+        font-weight: bold;
+        height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .header .navbar-default div.navbar-collapse .list-inline li{
+        padding: 0px;
+    }
+    .input-group-btn:last-child > .btn, 
+    .input-group-btn:last-child > .btn-group {
+        margin-left: 20px;
+    }
+    .header form{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display: inline-block;
+    }
+    .header .form-control{
+        margin-left: 50px;
+    }
+    .header form.pull-right{
+        float: right !important;
+    }
+    .header form {
+        margin-top: 10px;
+    }
+    /* /Header */
+    /* Modal start */
+    .modal-dialog {
+    }
+    .modal .modal-dialog .modal-content .modal-body{
+        padding: 20px 0 20px 0;
+    }
+   
+    /* /Modal end */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
+
+
+
+
+
+
+
+    /*////---- HOME PAGE START ----///  min-width 768px  /*/
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+    .slider {
+        margin-top: 0px;
+    }
+
+    /* PreciousSense */
+    .preciousSense p{
+        font-size: 21px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 120px;
+        margin-bottom: 0px;
+    }
+    .preciousSense h2{
+        font-size: 60px;
+        font-family: 'Playball', cursive;
+        font-weight: bold;
+        color: #24292d;
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+
+    /* Tab */
+    .nav-tabs {
+        border-radius: 35px;
+    }
+    .nav-tabs > li.active > a,
+    .nav-tabs > li.active > a:hover,
+    .nav-tabs > li.active > a:focus {/* Potrebno je jos aditi */
+        border-radius: 35px;
+    }
+    .nav-tabs > li > a {/* Potrebno je jos aditi */
+        line-height: 120%;
+        padding: 20px 40px;
+        border-radius: 35px;
+        font-size: 20px;
+    }
+    /* /Tab */
+
+    /* Slider Four Pics */
+    .tab-pane .slick-next {
+        right: -15px;
+    }
+    .tab-pane .slick-prev::before,
+    .tab-pane .slick-next::before {
+        display: inline-block;
+    }
+    /* /Slider Four Pics */
+
+    /* /PreciousSense */
+
+    /* Special Offers starts */
+    .specialOffers .mediaContent h2{
+        text-align: left;
+        font-size: 36px;
+        margin-top: 0px;
+    }
+    .specialOffers .mediaContent p:first-of-type{
+        font-family: 'Playball', cursive;
+        font-size: 24px;
+        text-align: left;
+        color: #d25113;
+    }
+    .specialOffers .mediaContent .media{
+        margin: 10px;
+    }
+    /* /Special Offers end */
+
+    /* Services start */
+    .services > .container > .row > div > article > p{
+        font-size: 21px;
+    }
+    .services > .container > .row > div > article > p:last-of-type{
+        font-size: 18px;
+    }
+    .services > .container > .row > div > article > h2{
+        font-size: 60px;
+    }
+    .services .meals h2{
+        font-size: 18px;
+    }
+    .services .meals p{
+        font-size: 15px;
+    }
+    /* /Services end */
+
+    /* Booking start */
+    .booking{
+        margin-bottom: 120px;
+    }
+    .booking  article > h2{
+        font-size: 60px;
+        margin-top: 110px;
+    }
+    .booking p:first-of-type{
+        font-size: 18px;
+    }
+    .booking p:last-of-type{
+        font-size: 15px;
+    }
+    /* /Booking end */
+    /*////---- HOME PAGE END ----////*/
+
+
+
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----///  min-width 768px  /*/
+    /* About restaurant start */
+    .aboutRestaurant{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-top: -20px;
+    }
+    .aboutRestaurant > .container > div > h2{
+        font-size: 76px;
+    }
+    .aboutRestaurant > .container > div > h2 > img{
+        width: 70px;
+    }
+    .aboutRestaurant p:first-of-type{
+        font-size: 18px;
+    }
+    .aboutRestaurant p:last-of-type{
+        font-size: 15px;
+    }
+    /* /About restaurant end */
+
+    /* Who we are start */
+    .whoWe{
+        padding-bottom: 0px;
+    }
+    .whoWe  article > p{
+        font-size: 21px;
+    }
+    .whoWe  article > p:last-of-type{
+        font-size: 18px;
+    }
+    .whoWe  article > h2{
+        font-size: 60px;
+    }
+    .whoWe .meals h2{
+        font-size: 18px;
+    }
+    .whoWe .meals p{
+        font-size: 15px;
+    }
+    /* /Services end */
+
+    /* History start */
+    section.history{
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+   
+    /* /History end */
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----///  min-width 768px  /*/
+    /* Our menu start */
+    .ourMenu{
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-top: -20px;
+    }
+    .appetizers{
+        margin-bottom: 110px;
+    }
+    .products > h3 > small,
+    .products > h4 > small{
+        display: inline;
+        position: relative;
+        bottom: -7px;
+    }
+    .breakfast .products > p > a{
+        font-size: 14px;
+    }
+    .breakfast .price > p{
+        font-size: 14px;
+    }
+    .products > small{
+        color: #72777b;
+        font-size: 12px;
+    }
+    
+    .specials .headingSecond > p{
+        font-size: 16px;
+    }
+    /* /Our menu end */
+
+    /* All headings */
+    .headings  .container  div  h2{
+        font-size: 76px;
+    }
+    .headings  .container  div h2 > img{
+        width: 70px;
+    }
+    .headings p:first-of-type{
+        font-size: 18px;
+    }
+    .headings p:last-of-type{
+        font-size: 15px;
+    }
+    /* All headings */
+
+    /* All heading second */
+    .headingSecond > h2{
+        font-size: 40px;
+    }
+    .headingSecond > p{
+        font-size: 18px;
+    }
+    /* All heading second */
+
+    /* All rows */
+    .products{
+        margin-bottom: 25px;
+    }
+    .products > p > a{
+        font-size: 18px;
+    }
+    .products > h3 > a{
+        font-size: 26px;
+    }
+    .products > h4 > a{
+        font-size: 24px;
+    }
+    .price > p{
+        font-size: 18px;
+    }
+    /* All rows */
+    /* ThirdHeading all */
+    .thirdHeading article{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+    .thirdHeading > h2{
+        font-size: 40px;
+    }
+    .thirdHeading > p{
+        font-size: 16px;
+    }
+    /* ThirdHeading all */
+
+    .dessert .products > p > a{
+        font-size: 12px;
+    }
+    .dessert .price > p{
+        font-size: 12px;
+    }
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 768px  /*/
+    /* Homemade pizza start */
+    .blogCenter{
+        margin-top: 120px;
+    }
+    .homemadePizza{
+        padding: 50px 30px 0 30px;
+    }
+    .homemadePizza > h2{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    
+  
+    .homemadePizza > figure{
+        margin-top: 40px;
+    }
+    .homemadePizza > p{
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    .testimonial{
+        margin-top: 30px;
+        padding: 20px;
+    }
+  .testimonial p{
+        font-size: 21px;
+    }
+     .testimonial p > img:nth-of-type(1){
+        width: auto;
+        position: relative;
+        top: -7px;
+    }
+   .testimonial p img:nth-of-type(2){
+        width: auto;
+        position: relative;
+        bottom: -7px;
+    }
+    .homemadePizza > h4{
+        font-size: 25px;
+        margin-top: 60px;
+    }
+    .homemadePizza > ul{
+        margin-top: 40px;
+    }
+    .homemadePizza > ul li{
+        font-size: 15px;
+    }
+    .socialBox{
+        margin-top: 40px;
+        padding: 30px 0px 20px 0px;
+    }
+    .socialBox > ul:first-of-type > li > a{
+        line-height: 35px;
+    }
+    .prevNext{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .prevNext > article{
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    .prevNext article > a{
+        font-size: 15px;
+    }
+    /* /Homemade pizza end */
+
+    /* Related posts start */ 
+    .relatedPost h3{
+        font-size: 18px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .relatedPost .relatedPhoto{
+        border: 1px solid #e8e7e4;
+    }
+    /* /Related posts end */ 
+
+    /* William start */ 
+    .william{
+        padding: 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .william .media-left, 
+    .william .media-right, 
+    .william .media-body {
+        display: table-cell;
+    }
+    /* /William end */
+
+    /* Pagination start */
+    .pagi{
+        padding: 30px;
+    }
+    .pagi .media{
+        padding-top: 30px;
+    }
+    .pagi .media .media-body > div{
+        display: inline-block;
+    }
+    .pagi .media .media-body > div > h6{
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .pagi .media .media-body > div > p{
+        float: right;
+        margin-left: 30px;
+        font-size: 13px;
+    }
+    .pagi div:nth-of-type(2){
+        padding-left: 50px;
+    }
+    /* /Pagination end */
+
+    /* Comment start */
+    .comment{
+        padding: 30px;
+    }
+    .comment h3{
+        font-size: 14px;
+    }
+    .comment > p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .comment > form > div:first-of-type{
+        float: left;
+        width: 48%;
+        margin-right: 2%;
+    }
+    .comment > form > div:nth-of-type(2){
+        float: right;
+        width: 48%;
+        margin-left: 2%;
+    }
+    /* /Comment end */
+
+    /* Right side bar start */
+    .rightSide > article{
+        width: auto;
+    }
+    /* Rose start */
+    .rose{
+        margin-top: 0px;
+    }
+
+    .rose img{
+        margin-top: 0px;
+    }
+    /* /Rose end */
+
+    /* Categorie start */
+    .categorie{
+
+    }
+    /* /Categorie end */
+
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: 42.6px;
+    }
+    /* /Forum instagram end */
+
+    /* Tags start */
+    .tags > div{
+        margin-top: 20px;
+        text-align: left;
+    }
+    /* /Tags end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
+
+    /*////---- BLOG LIST CSS START ----///  min-width 768px  /*/
+    .blogList .mediaList a.more{
+        padding: 17px 45px;
+        color: #24292d;
+        left: -84px;
+    }
+    .latestForm .media a img{
+    width: 50px;
+    height: auto;
+}
+    /*////---- BLOG LIST CSS END ----////*/
+
+
+
+
+
+    /*////---- SHOP LIST CSS START ----///  min-width 768px  /*/
+    /* Actions start */
+    .shop{
+        margin-top: 120px;
+    }
+    .shopList {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .shopList  article > p {
+        text-align: left;
+    }
+    .shopList form .form-group {
+        width: auto;
+    }
+    .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .shopList .listDetail{
+        width: 215px;
+        border: 1px solid #e8e7e4;
+        margin: 0 10px 30px 10px;
+        float: left;
+    }
+    /* Actions end */
+    .shopRight .tags{
+        width: auto;
+    }
+    .shopRight .topRated{
+        width: auto;
+        padding: 10px;
+    }
+    .shopRight .categories{
+        width: auto;
+    }
+    .shopRight .filter{
+        width: auto;
+    }
+    .filter{
+        padding: 10px;
+    }
+    .filter a{
+        font-size: 12px;
+    }
+    .filter button{
+        padding: 7px 15px;
+    }
+    /*////---- SHOP LIST CSS END ----////*/
+
+
+
+
+
+
+    /*////---- SHOP PRODUCT CSS START ----///  min-width 768px  /*/
+    /* Product name start */
+    .productName{
+        text-align: left;
+    }
+    .productName > div:nth-child(2) form .form-group{
+        padding: 20px;
+        width: 338px;
+        position: relative;
+    }
+    .productName  form .form-group .form-control{
+        display: inline-block;
+        margin-left: 50px;
+        width: 80%;
+    }
+    .productName  form .form-group label{
+        display: inline-block;
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .productName  button:nth-of-type(3){
+        margin: 0 20px 0 20px;
+    }
+    /* Tabs start */
+    .productTab > .nav-tabs > li > a{
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    .productTab{
+        padding: 0px;
+        border: 1px solid #f2f2f2;
+    }
+    .productTab .tab-content .tab-pane{
+        padding: 0 30px 40px 30px;
+        text-align: left;
+    }
+    /* tab end */
+
+    /* Related product start */
+    .relatedProduct  .shopList .listDetail figure > a > img{
+        width: 340px;
+    }
+    .relatedProduct  .shopList .listDetail{
+        width: 340px;
+    }
+    /* /Related product end */
+    /* /Product name end */
+    /*////---- BLOG PRODUCT CSS END ----////*/
+
+
+
+
+
+
+    /*////---- CONTACT CSS START ----///  min-width 768px  /*/
+    /* Second heading start */
+    .contactToday {
+        padding-top: 110px;
+        padding-bottom: 35px;
+    }
+    .contactToday > article > h2{
+        font-size: 60px;
+    }
+    /* /Second heading end */
+    .contactUs  .comment{
+        margin-bottom: 120px;
+    }
+    /* Map start */
+    .contactUs iframe{
+        height: 400px;
+    }
+    /* /Map end */
+    /* Contact and address start */
+    .contactUs .contactAddress{
+        margin-bottom: 120px;
+        text-align: left;
+    }
+    /* /Contact and address end */
+    /*////---- /CONTACT CSS END ----////*/
+
+
+
+
+
+
+    /*////---- LOGIN CSS START ----///  min-width 768px  /*/
+    .sign  article{
+        text-align: left;
+    }
+    .sign  article{
+        text-align: left;
+    }
+    /*////---- /LOGIN CSS END ----////*/
+
+
+
+
+
+
+    /*////---- REGISTRATION CSS START ----///  min-width 768px  /*/
+    #dateBirth > label{
+        margin-right: 20px;
+    }
+    #gender{
+        text-align: left;
+    }
+
+    /*////---- /REGISTRATION CSS END ----////*/
+
+
+
+
+
+
+    /*////---- FOR ALL PAGES FOOTER START ----////*/
+    /* Five pics start */
+    .fivePics article{
+        width: 20%;
+        float: left;
+    }
+    /* /Five pics end*/
+    /*////---- FOR ALL PAGES FOOTER END ----////*/
+}
+@media only screen and (min-width: 992px){
+    /*////---- FOR ALL PAGES HEADER START ----////*/
+    /* Header top */
+    .headerTop article address{
+        float: left;
+    }
+    .headerTop .signIn ul.text-center{
+        text-align: right;
+    }
+    /* /Header top */
+
+    /* Header */
+    .header .navbar-brand{
+        margin-top: 10px;
+    }
+    .header .navbar-default ul.navbar-nav {
+        float: left;
+    }
+    .header .navbar-default .navbar-nav > li > a {
+        height: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .header form{
+        margin-top: 30px;
+    }
+    .header .form-control{
+        width: 150px;
+        margin-left: 50px;
+    }
+    .header .navbar-default div.navbar-collapse {
+        display: inline-block;
+        float: right;
+    }
+    .input-group-btn:last-child > .btn, 
+    .input-group-btn:last-child > .btn-group {
+        margin-left: 20px;
+    }
+    .header form {
+        width: 260px;
+    }
+    /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
+
+
+
+
+
+    /*////---- HOME PAGE START ----///  min-width 992px  /*/
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+
+    /* Special Offers starts */
+    .specialOffers{
+        margin-top: 120px;
+        margin-bottom: 120px;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .specialOffers .sideContent{
+        padding-right: 15px;
+    }
+   
+    .specialOffers .sideContent h2{
+        font-size: 18px;
+    }
+    .specialOffers .sideContent p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+     .specialOffers .sideContent p:first-child {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .specialOffers .mediaContent > p{
+        margin-bottom: 60px;
+    }
+    /* /Special Offers end */
+
+    /* Booking start */
+    .booking img.chef{
+        margin-top: 30px;
+    }
+    .booking .form-control{
+        height: 50px;
+        padding: 6px 12px;
+    }
+    .booking .littleForm {
+        padding-bottom: 20px;
+    }
+    .booking form{
+        padding: 30px 45px 30px 45px;
+        border: 5px solid #f5f5f5;
+    }
+    .booking form .form-group {
+        margin-bottom: 20px;
+    }
+    .booking .littleForm .form-group{
+        width: 48%;
+        float: left;
+    }
+    .booking .littleForm .form-group:first-child{
+        margin-right: 4%;
+    }
+    .booking .littleForm .form-group {
+        margin-bottom: 0;
+    }
+    .booking .forms h2{
+        font-size: 60px;
+    }
+    .booking .forms button{
+        margin-top: 30px;
+    }
+    .booking .forms h2{
+        font-size: 60px;
+    }
+    .booking .forms button {
+        margin-top: 0px;
+    }
+    /* /Booking End */
+    /*////---- HOME PAGE END ----////*/
+
+
+
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----///  min-width 992px  /*/
+    /* Who we are start */
+    .whoWe  article > p{
+        font-size: 21px;
+    }
+    .whoWe  article > p:last-of-type{
+        font-size: 18px;
+    }
+    .whoWe  article > h2{
+        font-size: 60px;
+    }
+    .whoWe .meals h2{
+        font-size: 18px;
+    }
+    .whoWe .meals p{
+        font-size: 15px;
+    }
+    /* /Who we are end */
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----///  min-width 992px  /*/
+    .specials .headingSecond > p{
+        font-size: 18px;
+    }
+    .dessert .products > p > a{
+        font-size: 18px;
+    }
+    .dessert .price > p{
+        font-size: 18px;
+    }
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 992px  /*/
+    .first{
+        margin-top: 0px;
+    }
+    /* Homemade pizza start */
+    .socialBox  ul:first-of-type{
+        float: left;
+    }
+    .socialBox ul:last-of-type{
+        float: right;
+    }
+    /* /Homemade pizza end */
+
+    /* Right side bar start */
+   
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: 67px;
+    }
+    /* /Forum instagram end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- BLOG LIST CSS START ----///  min-width 992px  /*/
+    .blogList div.mediaList{
+        max-width: 100%;
+    }
+    .blogList .mediaList img{
+        float: left;
+        margin-right: 10px;
+    }
+    .latestForm .media a img{
+    width: 100px;
+    height: auto;
+}
+    .blogList .mediaList .mediaList-body a.more{
+        margin-bottom: 0px;
+        margin-left: 0;
+        left: 0px;
+    }
+    .blogList .mediaList{
+        padding-right: 10px;
+        text-align: left;
+    }
+    /*////---- BLOG LIST CSS END ----////*/
+
+
+
+
+
+    /*////---- SHOP LIST CSS START ----///  min-width 992px  /*/
+    /* Actions start */
+    .shopList  article > p{
+        float: left;
+    }
+    .shopList form{
+        float: right;
+    }
+    .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .shopList .listDetail{
+        width: 252px;
+        margin: 0 15px 30px 15px;
+    }
+    /* Actions end */
+    .filter{
+        padding: 20px;
+    }
+    .filter button{
+        padding: 9px 20px;
+    }
+    .filter a{
+        font-size: 14px;
+    }
+    .shopRight .topRated{
+        padding: 30px;
+    }
+    /*////---- SHOP LIST CSS END ----////*/
+.menu-section{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+    /*////---- SHOP PRODUCT CSS START ----///  min-width 992px  /*/
+    /* Product gallery start */
+    .productGallery{
+        margin-top: 120px;
+    }
+    /* /Product gallery end */
+
+    /* Product name start */
+    .productName{
+        margin-top: 120px;
+    }
+    .productName > div:nth-child(2) form .form-group{
+        width: 205px;
+    }
+    /* /Product name end */
+
+    /* Related Product start */
+    .relatedProduct{
+        margin-top: 90px;
+        margin-bottom: 120px;
+    }
+    .relatedProduct  .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .relatedProduct  .shopList .listDetail{
+        width: 215px;
+        margin: 0 10px 30px 10px;
+        float: left;
+    }
+    /* /Related Product end */
+    /*////---- BLOG PRODUCT CSS END ----////*/
+
+
+
+
+
+
+    /*////---- CONTACT CSS START ----///  min-width 992px  /*/
+    /* Map start */
+    .contactUs iframe{
+        height: 600px;
+    }
+    /* /Map end */
+    /*////---- /CONTACT CSS END ----////*/
+
+
+
+
+
+    /*////---- LOGIN CSS START ----///  min-width 992px  /*/
+    .sign article  form  .form-group{
+        width: 70%;
+    }
+    .sign  div h2{
+        margin-top: 120px;
+        margin-bottom: 70px;
+    }
+    .sign  article  form{
+        margin-bottom: 120px;
+        margin-right: 20px;
+    }
+    .sign  article{
+        margin: 45px 0 80px 20px;
+    }
+    /*////---- /LOGIN CSS END ----////*/
+
+
+    .modal table.smalCart tbody tr td:first-of-type a{
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    /*////---- REGISTRATION CSS START ----///  min-width 992px  /*/
+    #dateBirth .form-group{
+        display: inline-block;
+        width: 24%;
+    }
+    .registration  .preciousSense  div:nth-child(2) > .tab-content {
+        padding: 20px 0 120px 0;
+    }
+    .registration  .preciousSense  div:nth-child(2) .tab-content div:nth-of-type(3) .regBtn{
+        margin-bottom: 0px;
+    }
+    /*////---- /REGISTRATION CSS END ----////*/
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 1200px){
+    /*////---- FOR ALL PAGES HEADER START ----////*/
+    /* Header */
+    .header .navbar-header{
+        margin-left: -15px;
+    }
+    .header .navbar-default div.navbar-collapse {
+        margin-right: -15px;
+    }
+    .header form{
+        margin-right: -15px;
+        padding-right: 0px;
+    }
+    .header .form-control{
+        margin-left: 0px;
+    }
+    .input-group-btn:last-child > .btn, 
+    .input-group-btn:last-child > .btn-group {
+        margin-left: -15px;
+    }
+    /* /Header */
+    /*////---- FOR ALL PAGES HEADER END ----////*/
+
+
+
+
+
+    /*////---- HOME PAGE START ----////*/
+    /* Slajder poseduje eksterni main_slider.css i responsive_slider.css */
+    /* Booking start */
+    .booking .forms h2{
+        margin-bottom: 50px;
+    }
+    /* /Booking end */
+    /*////---- HOME PAGE END ----////*/
+
+
+
+
+
+    /*////---- ABOUT US PAGE CSS START ----////*/
+
+    /*////---- ABOUT US PAGE CSS END ----////*/
+
+
+
+
+
+
+    /*////---- MENU PAGE CSS START ----////*/
+
+    /*////---- MENU PAGE CSS END ----////*/
+
+
+
+
+
+
+
+
+    /*////---- BLOG PAGE CSS START ----///  min-width 1200px  /*/
+    /* Right side bar start */
+    .rose{
+        padding: 30px;
+    }
+  
+    /* Forum instagram start */
+    .forumInsta div > img{
+        width: auto;
+        width: auto;
+    }
+    /* /Forum instagram end */
+    /* /Right side bar end */
+    /*////---- BLOG PAGE CSS END ----////*/
+
+    /*////---- BLOG LIST CSS START ----////*/
+    /* List start */
+    .blogList .mediaList img{
+        margin-right: 30px;
+    }
+    .blogList .mediaList{
+        padding-right: 30px;
+    }
+    /* /List end */
+    /*////---- BLOG LIST CSS END ----////*/
+
+
+
+
+
+
+    /*////---- SHOP PRODUCT CSS START ----///  min-width 1200px  /*/
+    .productName > div:nth-child(2) form .form-group{
+        width: 255px;
+    }
+
+    /* Related Product start */
+    .relatedProduct{
+        margin-top: 90px;
+        margin-bottom: 120px;
+    }
+    .relatedProduct > .shopList .listDetail figure > a > img{
+        width: auto;
+    }
+    .relatedProduct > .shopList .listDetail{
+        width: 255px;
+        margin: 0 15px 30px 15px;
+    }
+    /* /Related Product end */
+    /*////---- SHOP PRODUCT CSS END ----////*/
+
+}
+
+
+
+
+/*////---- CONTACT CSS START ----///  min-width 1200px  /*/
+/* Map start */
+.contactUs iframe{
+    height: 700px;
+}
+/* /Map end */
+/*////---- /CONTACT CSS END ----////*/

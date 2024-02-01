@@ -1,0 +1,636 @@
+.nav-pills > li > a {
+    border-radius: 4px;
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: white;
+    background: #d25513;
+}
+
+figure.userfigureImg{
+    border: 1px solid #fff;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    background: #ccc;
+    border-radius: 50%;
+}
+h2.userInfoHeadline {
+    margin: 0px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    display: inline;
+    font-family: 'Playball', cursive;
+}
+.logInDugme .btn-primary {
+    background: #d25513;
+    background-repeat: repeat-x;
+    border-color: #d25513;
+}
+.section4{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+img.userProfilePic{
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+p.userInfoP{
+    color: #1377c5;
+    font-weight: 100;
+}
+a.userInfoEmail{
+    text-decoration: none;
+    color: #1377c5;
+    font-weight: 800;
+}
+
+h2.userInfoHeadline{
+    margin: 0;
+    font-weight: 100;
+    padding-bottom: 20px;
+    display: inline;
+}
+
+h2.userInfoHeadlineMessage{
+    margin: 0 0 20px 0;
+    font-weight: 100;
+    display: inline;
+}
+
+div.userTabContent{
+    background: #f2f2f2;
+    padding: 20px;
+}
+
+span.userMessage{
+    color: red;
+    padding-right: 20px;
+    font-weight: 800;
+}
+
+p.inboxMessage{
+    padding-top: 15px;
+}
+
+.messageDate, .messageTime{
+    color: gray;
+    padding: 5px;
+    font-weight: 800;
+}
+
+div.message,message2{
+    padding: 10px 15px;
+    border-bottom: 1px solid #b3b3b3;
+
+}
+
+div.message:hover, div.message:focus{
+    background: #e6e6e6;
+    transition: .5s;
+}
+
+
+span.fa-trash{
+    color: #1377c5;
+    font-size: 25px;
+}
+
+span.fa-reply{
+    padding-left: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+i.reply{
+    color: red;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+#comment, #comment2, #comment3{
+    display: none;
+    border-color: gray;
+    box-shadow: none;
+
+}
+
+div.ifReplayed{
+    padding-left: 80px;
+}
+
+.replyCheckbox{
+    margin-top: 50px;
+}
+
+/*////---- /error css start ----////*/
+main.error{
+    padding: 40px 0;
+    position: relative;
+    z-index: 10;
+    top: -40px;
+    padding-top: 45px;
+}
+.error .verticalCenter{
+    height: 275px;
+    padding-top: 95px;
+
+}
+.error h2{
+    text-align: center;
+    font-weight: bold;
+    color: #d25513;
+    font-size: 150px;
+    margin-top: 80px;
+}
+.error h3{
+    font-weight: 100;
+    font-size: 70px;
+    text-align: center;
+}
+.error p{
+    font-size: 20px;
+    text-align: center;
+}
+.error p a{
+    color: #d25513; 
+}
+.error p:hover a{
+    color: #4b64ad;
+}
+
+/*////---- /SHOPCART CSS START ----////*/
+
+
+
+.modal-backdrop{
+    position: fixed;
+    z-index: 0;
+}
+
+.shopCart .btn-default {
+    padding: 10px 20px;
+    color: #FFF;
+    background: #D25113 none repeat scroll 0% 0%;
+    border: 1px solid #D25113;
+    border-radius: 50px;
+    font-size: 12px;
+    box-shadow: none;
+    transition: all 0.5s ease 0s;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shopCart .btn-default:hover{
+    color: #D25113;
+    background: white;
+}
+
+.purchase a.btn-primary {
+    padding: 0px 26px;
+    color: white;
+    background: #D25113;
+    border-color: #D25113;
+}
+.purchase a.btn-primary:hover{
+    background: white;
+    border-color: #D25113;
+    color: #D25113;
+   
+}
+.shopCart h3{
+     font-family: 'Playball', cursive;
+     font-size: 30px;
+    color: #D25113; 
+}
+
+
+
+
+/*////---- /SHOPCART CSS END ----////*/
+
+
+
+/*////---- SHOPING CART CSS START ----////*/
+
+td a#buy{
+    color: #fff;
+    font-weight: bold;
+}
+td a#buy:hover{
+    color: #d25513; 
+    font-weight: bold;
+    margin-top: 40px;
+}
+div.shopingcart {
+    border: 2px solid #ccc;
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    z-index: 1000;
+    background-color: #fff;
+    display: none;
+}
+div.shopingcart figure{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.table > tfoot > tr > td {
+    line-height: 1.2857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    color:  #d25513;
+}
+
+.table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    color: #d25513;
+}
+
+.lorem > p > a {
+    text-decoration: none;
+    color: #d25513;
+}
+.closeShop{
+    color: #d25513;
+
+}
+
+.historyProduct > p > a{
+    text-decoration: none;
+    color: #d25513;
+}
+
+.shopingcart a:hover{
+    color: #d25513 !important;
+}
+
+
+/*////---- SHOPING CART CSS END----////*/
+
+
+/*  Order 1 Page */
+
+.summaryView{
+    padding: 5px 10px;
+    background: #ccc;
+    border-radius: 5px;
+    margin: 10px;
+}
+.summaryView i{
+    color: #337ab7;
+}
+.summaryView a{
+    text-decoration: none;
+}
+.orderItems{
+    display: none;
+    margin: 30px auto;
+}
+.customerInformation,
+.deliveryData{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+section.order1,
+section.order2,
+section.order3,
+section.order4,
+section.order5{
+    position: relative;
+    z-index: 10;
+    top: -40px;
+    padding-top: 45px; 
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#orderForm div.error-list ul{
+    list-style: none;
+    color: red;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.purchase a{
+    line-height: 40px;
+}
+.conditions{
+    margin: 20px 0;
+}
+.summaryView{
+    margin: 0 auto;
+}
+
+.orderdItemInfo figure{
+    width: 50px;
+    height: 50px;
+}
+.discount{
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.discount input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section.order1 .form-inline button,
+section.order2 .form-inline button,
+section.order3 .form-inline button,
+section.order4 .form-inline button,
+section.order5 .form-inline button
+{
+    width: 100%;
+}
+label.saveInformation {
+    font-weight: normal;
+}
+#zipCode{
+
+    width: 100%
+}
+#inputPhone{
+    margin-top: 15px;
+}
+div.orderdItemInfo figure{
+    position:relative;
+}
+div.orderdItemInfo figure span.badge{
+    position:absolute;
+    top: -5px;
+    right:-5px;
+   background: #d25513;
+}
+.conditions li a {
+    color: black;
+    text-decoration: none;
+}
+.conditions li a:hover{
+    color: #d25513;
+}
+
+.purchase a{
+   color: black;
+   text-decoration: none;
+}
+.purchase a:hover{
+     color: #d25513;
+}
+
+.purchase .btn{
+    background: #d25513;
+    border-color: #d25513;
+}
+.purchase .btn:hover{
+    background: white;
+    border-color: #d25513;
+    
+    color: #d25513;
+}
+/*  Order 1 Page */
+
+/*  Order 2 Page */
+
+.deliveryMethod{
+    margin: 15px 0;
+    padding: 10px;
+}
+.deliveryMethod div{
+    padding: 10px 15px 13px 0;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+}
+.deliveryData,
+.summaryView,
+.orderItems,
+.reviewOrder{
+    max-width: 400px;
+}
+.deliveryData h3{
+    padding-bottom: 20px;
+}
+.deliveryData h3,
+.deliveryMethod h3{
+    font-size: 20px;
+}
+.purchase a.btn-primary{
+    padding: 0 16px;
+}
+.deliveryData h4{
+    font-weight: 400;
+}
+
+.discount .btn {
+    width: 50px;
+    background: #D25113;
+    border-color: #D25113;
+}
+.discount .btn:hover{
+    background: white;
+    color:#D25113;
+    border-color: #D25113;
+}
+.deliveryData a{
+    color: black;
+}
+.deliveryData a:hover{
+    text-decoration: none;
+    color: #D25113;
+}
+.deliveryData h3{
+     font-family: 'Playball', cursive;
+     font-size: 28px;
+     color: #D25113;
+}
+/*  Order 2 Page */
+
+
+/*  Order 3 Page */
+
+.deliveryData label{
+    font-weight: 400;
+}
+.deliveryData label input{
+    margin-right: 15px;
+}
+.deliveryData h4 {
+    font-weight: 400;
+}
+.addressForm{
+    display: none;
+}
+div.panel h4 a{
+    display: block;
+}
+
+/* Order 3 Page */
+
+
+/* Order 4 Page */
+
+article.deliveryData div.reviewOrder{
+    border: 1px solid rgb(204, 204, 204);
+    padding: 20px 5px;
+    border-radius: 5px;
+}
+article.deliveryData div.reviewOrder div:first-child{
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 30px;
+}
+article.deliveryData  div.reviewOrder article{
+    margin-top: 30px;
+    text-align: center;
+}
+article.deliveryData  div.reviewOrder h4{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+div.orderNav{
+    line-height: 70px;
+}
+div.orderNav a.btn{
+    margin-top: 20px;
+}
+.orderNav .btn{
+    background: #D25113;;
+    color: white;
+    border-color: #D25113;
+}
+.orderNav .btn:hover{
+    background: white;
+    color: #D25113;
+   
+}
+/* Order 4 Page */
+
+/* Order 5 Page */
+
+.reviewOrder .confirmOrder{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.reviewOrder > h4,
+.reviewOrder > h5,
+.reviewOrder > h3
+{
+    margin: 35px 0;
+}
+.orderConfirm{
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+.reviewOrder div.col-sm-6 article{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.reviewOrder div.customerInfo{
+     border: 2px solid #ccc;
+    border-radius: 5px;
+}
+.orderNav a {
+    color: black;
+}
+.orderNav a:hover {
+    color: #D25113;
+    text-decoration: none;
+}
+.reviewOrder h3{
+    font-family: 'Playball', cursive;
+    font-size: 32px;
+    color: #D25113;
+}
+.table-responsive .text-right{
+    color:black;
+}
+/* Order 5 Page */
+
+
+
+@media(min-width:768px){
+    /*////---- /ERROR css start ----////*/
+
+
+main.userPanel select.form-control {
+        background-size: 10px;
+    }
+    .error h2{
+        font-size: 250px;
+    }
+    section.order1 .form-inline input,
+    section.order2 .form-inline input,
+    section.order3 .form-inline input,
+    section.order4 .form-inline input,
+    section.order5 .form-inline input{
+        width: 75%;
+    }
+    section.order1 .form-inline button,
+    section.order2 .form-inline button,
+    section.order3 .form-inline button,
+    section.order4 .form-inline button,
+    section.order5 .form-inline button{
+        width: 20%;
+    }
+    .customerInformation{
+        max-width: 100%;
+    }
+    .summaryView{
+        display: none;
+    }
+    .orderItems{
+        display: block;
+    }
+    .deliveryData,
+    .summaryView,
+    .orderItems,
+    .reviewOrder{
+        max-width: 100%;
+        margin-top: 50px;
+    }
+    .orderdItemInfo figure{
+        width: 80px;
+        height: 80px;
+    }
+    article.deliveryData  div.reviewOrder article{
+        text-align: left;
+    }
+    article.deliveryData div.reviewOrder div:first-child{
+        border-bottom: none; 
+        padding-bottom: 0;
+    }
+
+}
+
+@media(min-width:992px){
+    .error h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #d25513;
+    font-size: 200px;
+    margin-top: 80px;
+}
+}
+
+@media(min-width:1200px){
+    
+}

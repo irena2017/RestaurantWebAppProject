@@ -1,0 +1,154 @@
+@media only screen and (min-width: 450px){
+    /* First slider with big circle images starts */
+    .slider .carousel-inner .priceCircle{
+        top: 40%;
+        right: 20%;
+    }
+    /* /First slider with big circle images end */
+
+    /* Second slider with little circle images starts */
+    .peopleSaying h2{
+        font-size: 35px;
+        color: #fefefe;
+
+    } 
+    .peopleSaying div:first-child div p{
+        font-size: 12px;
+        color: #fefefe;
+    }
+    /* Second slider with little circle images end */
+}
+@media only screen and (min-width: 768px){
+    /* First slider with big circle images starts */
+    .slider .carousel-inner .description{
+        padding: 0px;
+        top: 0;
+        left: 50%;
+        width: auto;
+        background: none;
+        margin-left: -158px;
+    }
+    .slider .carousel-inner .description h1{
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    .slider .carousel-inner .priceCircle{
+        width: 140px;
+        height: 140px;
+        top: 40%;
+        right: 23%;
+        background-image: url('style_images/priceCircle.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 140px 140px;
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .slider .carousel-inner .priceCircle p:first-of-type{
+        line-height: 35px;
+        font-size: 30px;
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+    .slider .carousel-inner .priceCircle p:last-of-type{
+        line-height: 20px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .slider .carousel-inner .description p span img{
+        display: inline-block;
+    }
+    /* /First slider with big circle images end */
+
+    /* Second slider with little circle images starts */
+    .peopleSaying .carousel-inner .description{
+        padding: 0px;
+        width: auto;
+        background: transparent;
+    }
+    .peopleSaying h2{
+        font-size: 60px;
+    } 
+    .peopleSaying div:first-child div p{
+        font-size: 21px;
+    }
+    .peopleSaying .carousel-inner .description p:last-of-type{
+        max-width: 630px;
+    }
+    /* Second slider with little circle images end */
+}
+
+@media only screen and (min-width: 992px){
+    /* First slider with big circle images starts */
+    .slider .carousel-inner{
+        margin-top: 120px;        
+    }
+   
+    .slider .carousel-inner .description{
+        margin-left: -284px;
+    }
+    .slider .carousel-inner .description h1{
+        font-size: 72px;
+        margin-top: 0px;
+    }
+    .slider .carousel-inner .description p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .slider .carousel-indicators{
+        left: 80%;
+        bottom: 50%;
+        margin-left: 0px;
+        margin-bottom: -106.5px;
+    }
+    .slider .carousel-indicators li{
+        height: 70px;
+        width: 70px;
+        display: block;
+        border-radius: 50%;
+    }
+    .slider .carousel-indicators .active{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+    }
+    .slider .carousel-inner .description p span img{
+        display: inline-block;
+    }
+    .slider .carousel-inner .priceCircle{
+        top: 76%;
+    }
+
+    /* Second slider with little circle images starts */
+    .peopleSaying .carousel-inner{
+        margin-top: 120px;
+    }
+    .peopleSaying .carousel-inner .item figure img{
+
+    }
+    .peopleSaying .carousel-inner .description{
+
+    }
+    .peopleSaying .carousel-inner .description h1{
+        font-size: 72px;
+        margin-top: 0px;
+    }
+    .peopleSaying .carousel-inner .description p{
+        font-size: 20px;
+    }
+    /* Second slider with little circle images end */
+}
+
+@media only screen and (min-width: 1200px){
+    .slider .carousel-inner .priceCircle{
+        right: 30%;
+    }
+    .slider .carousel-indicators{
+        left: 95%;
+    }
+    /* /First slider with big circle images end */
+
+    /* Second slider with little circle images starts */
+
+    /* Second slider with little circle images end */
+}

@@ -1,0 +1,7 @@
+Bash
+2. cd D:
+3. cd "Programiranje\1.RestaurantWebAppProject"
+4. git init
+4. git remote add origin url repozitorijuma (npr. https://github.com/irena2017/RestaurantWebAppProject.git)
+OBAVEZNO dodaj git na kraju
+5. 
